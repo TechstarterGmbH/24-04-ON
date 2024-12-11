@@ -1,6 +1,6 @@
 ### Task Breakdown with Current Frame and Constraints  
 
-1. **Build Infrastructure Manually**  
+1. **Build Infrastructure manually**  
 2. **Implement Business Logic with Code**  
 3. **Automate Infrastructure Deployments (Infrastructure as Code)**  
 
@@ -12,7 +12,6 @@
   - **Queue Storage** for task queuing.  
   - **Table Storage** for structured data.  
 
-This ensures alignment with the specified constraints while maintaining a logical progression from manual setup to automation.
 
 ### Scenario 1: Serverless Image Processing Pipeline
 Your team works for a photography startup, PixelPerfect. The company wants to provide customers with resized images for social media. As part of the engineering team, you’ve been tasked with setting up a pipeline where users can upload images to a storage system, which will then be resized automatically and made available for download. The CTO expects a scalable and cost-effective serverless solution.
