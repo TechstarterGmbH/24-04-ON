@@ -1,18 +1,8 @@
 ### Task Breakdown with Current Frame and Constraints  
 
 1. **Build Infrastructure Manually**  
-   - Use the Azure portal to manually set up the required resources:  
-     - **Virtual Machines (VMs)** for hosting applications or running tasks.  
-     - **Function Apps** to handle serverless business logic.  
-     - **Storage Accounts** for **Blob Storage** (file storage), **Queue Storage** (message queue), and **Table Storage** (structured data).  
-
 2. **Implement Business Logic with Code**  
-   - Write the logic for the **Function App** to perform tasks like processing data from **Queue Storage**, storing results in **Table Storage**, and interacting with **Blob Storage** as needed.  
-   - If applicable, design code that interacts with the VMs, such as sending tasks or triggering actions.
-
 3. **Automate Infrastructure Deployments (Infrastructure as Code)**  
-   - Use an **ARM Template** to replicate the manually created infrastructure in a consistent, repeatable manner.  
-   - Ensure the ARM template deploys the VM, Function Apps, and Storage resources (Blob, Queue, and Table) with appropriate configurations.
 
 ### Constraints  
 - Use only the following Azure services:  
