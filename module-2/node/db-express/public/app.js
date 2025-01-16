@@ -23,7 +23,9 @@ async function addTodo(todo) {
         },
         body: JSON.stringify({ todo: todo })
     })
+    getTodos()
 }
+
 
 /*
 // addTodo() sendet eine POST request (mitstringifiziertem json objekt im Body)

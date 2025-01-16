@@ -34,6 +34,11 @@ app.post("/todos", async (req, res) => {
 
 })
 
+app.delete("/todos", async (req, res) => {
+    await db.run("DELETE FROM todos;")
+    res.send([])
+})
+
 app.listen(port, () => { console.log("Server läuft auf Port 3000") })
 
 
